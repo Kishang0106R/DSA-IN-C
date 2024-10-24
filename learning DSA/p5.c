@@ -7,7 +7,7 @@ int main() {
     int b[a];
     printf("enter array element: ");
     for(int i=0; i<=a; i++){
-        scnaf("%d", &b[a]);
+        scanf("%d", &b[i]);
     }
     for(int i=0; i<= a-1; i++){
         for(int j=0; j<=a-1-i; j++){
